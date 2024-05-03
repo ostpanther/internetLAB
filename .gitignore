@@ -1,4 +1,4 @@
-/venv
-/other
-/pdf's
+venv/
+other/
+pdf's/
 .DS_Store
