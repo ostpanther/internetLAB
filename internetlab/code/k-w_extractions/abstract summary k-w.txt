@@ -1,0 +1,62 @@
+                                    Методы для key-word extractions:
+
+
+1)         Simple Statistical Approaches
+
+1.1) Word Frequency (‘bag of words’) -  Word frequency consists of listing the words and phrases that repeat the most within a text.
+    But leaving aside crucial aspects related to the meaning,structure, grammar, and sequence of words.
+    Synonyms, for example, can’t be detected by this keyword extraction method, dismissing very valuable information.
+
+1.2) Word Collocations and Co-occurrences (N-gram statistics) - The most common types of collocations are bi-grams \
+    (two terms that appear adjacently, ‘customer service’) and tri-grams (a group of three words) 
+
+1.3) TF-IDF (term frequency–inverse document frequency), \
+    a formula that measures how important a word is to a document in a collection of documents.
+    This metric calculates the number of times a word appears in a text (term frequency \
+    and compares it with the inverse document frequency (how rare or common that word is in the entire data set).
+
+1.4) RAKE (Rapid Automatic Keyword Extraction ) -  \
+    is a well-known keyword extraction method which uses a list of stopwords and phrase delimiters \
+    to detect the most relevant words or phrases in a piece of text.
+
+
+2)          Linguistic Approaches
+
+2.1) Graph-based Approaches
+
+3)          Machine Learning Approaches
+
+3.1) Conditional Random Fields (CRF) -  is a statistical approach that learns patterns \
+    by weighting different features in a sequence of words present in a text. 
+
+3.2) ROUGE (recall-oriented understudy for gisting evaluation) - is a family of metrics \
+    that compares different parameters (like the number of overlapping words) \
+    between the source text and the extracted words.
+
+4)          Hybrid Approaches
+4.1) Just combine 2-3 approaches
+
+
+                                    Keyword Extraction Tools, Resources & Tutorials
+
+1) топ APi для k-w extraction: https://monkeylearn.com/blog/keyword-extraction-apis/
+2) книги :
+    https://langnet.uniri.hr/papers/beliga/Beliga_KeywordExtraction_a_review_of_methods_and_approaches.pdf
+
+    https://arxiv.org/pdf/1801.04470.pdf
+
+    https://www.sciencedirect.com/science/article/pii/S1877050917303629 (графовый метод)
+
+    Automatic Keyphrase Extraction based on NLP and Statistical Methods:
+    https://ceur-ws.org/Vol-706/poster13.pdf
+
+    https://www.researchgate.net/publication/295712686_Text_Mining_Applications_and_Theory
+
+3) Open-source Libraries and Tutorials:
+
+    RAKE -  https://www.airpair.com/nlp/keyword-extraction-tutorial
+    NLTK
+    RAKE NLTK
+    Scikit-Learn - https://www.freecodecamp.org/news/how-to-extract-keywords-from-text-with-tf-idf-and-pythons-scikit-learn-b2a0f3d7e667/
+    spaCy - https://medium.com/reputation-com-datascience-blog/keywords-extraction-with-ngram-and-modified-skip-gram-based-on-spacy-14e5625fce23
+
