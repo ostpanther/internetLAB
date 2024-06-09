@@ -2,4 +2,4 @@ venv/
 other/
 pdf's/
 .DS_Store
-internetVENV/
+**/internetVENV
